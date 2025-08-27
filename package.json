@@ -13,7 +13,6 @@
     "@module-federation/enhanced": "^0.18.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "rspack": "link:@module-federation/enhanced/rspack",
     "swc-plugin-coverage-instrument": "^0.0.28"
   },
   "devDependencies": {

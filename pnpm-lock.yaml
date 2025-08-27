@@ -17,9 +17,6 @@ importers:
       react-dom:
         specifier: ^19.1.0
         version: 19.1.1(react@19.1.1)
-      rspack:
-        specifier: link:@module-federation/enhanced/rspack
-        version: link:@module-federation/enhanced/rspack
       swc-plugin-coverage-instrument:
         specifier: ^0.0.28
         version: 0.0.28
