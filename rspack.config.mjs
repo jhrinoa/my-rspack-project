@@ -57,17 +57,17 @@ export default defineConfig({
     ],
   },
   plugins: [
-    // new ModuleFederationPlugin({
-    //   name: 'host',
-    //   remotes: {
-    //     provider:
-    //       'rslib_provider@https://unpkg.com/module-federation-rslib-provider@latest/dist/mf/mf-manifest.json',
-    //   },
-    //   shared: {
-    //     react: { singleton: true, eager: true },
-    //     'react-dom': { singleton: true, eager: true },
-    //   },
-    // }),
+    new ModuleFederationPlugin({
+      name: 'host',
+      remotes: {
+        provider:
+          'rslib_provider@https://unpkg.com/module-federation-rslib-provider@latest/dist/mf/mf-manifest.json',
+      },
+      shared: {
+        react: { singleton: true, eager: true },
+        'react-dom': { singleton: true, eager: true },
+      },
+    }),
     new rspack.HtmlRspackPlugin({
       template: './index.html',
     }),
