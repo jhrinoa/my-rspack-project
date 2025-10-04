@@ -17,8 +17,8 @@
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.14.6",
-    "@rspack/cli": "^1.5.0",
-    "@rspack/core": "^1.5.0",
+    "@rspack/cli": "1.5.8",
+    "@rspack/core": "1.5.8",
     "@rspack/plugin-react-refresh": "^1.4.3",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
